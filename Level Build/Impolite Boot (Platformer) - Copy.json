@@ -910,6 +910,14 @@
         "name": "assets/Clouds.png2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/spikes.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/spikes.png\"}",
+        "name": "assets\\spikes",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -950,7 +958,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5102289995006237,
+        "zoomFactor": 0.6652572241497211,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1040,8 +1048,8 @@
           "name": "Player",
           "persistentUuid": "531d1c3f-aae2-413f-ba87-81f0b6673f1b",
           "width": 72,
-          "x": 2773,
-          "y": 67,
+          "x": 238,
+          "y": 178,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -1117,7 +1125,7 @@
           "name": "LeftBoundary",
           "persistentUuid": "78dd0ffa-b22f-47a8-9b36-ef6a432b1d1e",
           "width": 135,
-          "x": 0,
+          "x": 1,
           "y": -256,
           "zOrder": 38,
           "numberProperties": [],
@@ -1572,22 +1580,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 60,
-          "keepRatio": true,
-          "layer": "EndScreen",
-          "name": "NextLevelButton",
-          "persistentUuid": "cd1d818c-e5c8-4073-8c74-5794815d5920",
-          "width": 192,
-          "x": 384,
-          "y": 235,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 94,
           "layer": "",
@@ -1628,8 +1620,8 @@
           "name": "Platform1",
           "persistentUuid": "8a6dbc0e-e67e-4e6b-ba08-216b765d04dc",
           "width": 198,
-          "x": 2733,
-          "y": 152,
+          "x": 2843,
+          "y": 207,
           "zOrder": 65,
           "numberProperties": [],
           "stringProperties": [],
@@ -1639,14 +1631,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 73,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "Spikes",
           "persistentUuid": "e672eb1d-177d-423a-8b9b-3ee50012b14f",
-          "width": 708,
-          "x": 2919,
-          "y": 134,
+          "width": 732,
+          "x": 3027,
+          "y": 238,
           "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
@@ -1661,8 +1653,8 @@
           "name": "Platform1",
           "persistentUuid": "dadd27dc-67a2-41bb-994a-d800772f8367",
           "width": 0,
-          "x": 2890,
-          "y": 347,
+          "x": 3000,
+          "y": 402,
           "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
@@ -1677,8 +1669,8 @@
           "name": "Platform1",
           "persistentUuid": "a39511b6-4f0b-4194-98c4-c1f227354ad7",
           "width": 0,
-          "x": 3122,
-          "y": 349,
+          "x": 3232,
+          "y": 404,
           "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
@@ -1693,8 +1685,8 @@
           "name": "Platform1",
           "persistentUuid": "398d6da2-ae0c-4510-88df-ee3f8ce92962",
           "width": 0,
-          "x": 3361,
-          "y": 348,
+          "x": 3471,
+          "y": 403,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -1702,15 +1694,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 473,
           "keepRatio": true,
           "layer": "",
           "name": "Ladder",
           "persistentUuid": "3a217daf-4cf6-4133-a925-894cc761c73c",
-          "width": 0,
-          "x": 3768,
-          "y": 117,
+          "width": 68,
+          "x": 3878,
+          "y": 5,
           "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
@@ -1726,8 +1719,8 @@
           "name": "BoundaryJumpThrough",
           "persistentUuid": "c72cc823-a2bf-4e12-87a4-3938c3bd51f5",
           "width": 79,
-          "x": 3763,
-          "y": 116,
+          "x": 3873,
+          "y": 9,
           "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
@@ -1741,8 +1734,8 @@
           "name": "Monster",
           "persistentUuid": "d7d6d1d3-7b48-44ba-af12-c32bc404772d",
           "width": 0,
-          "x": 2970,
-          "y": 310,
+          "x": 3080,
+          "y": 365,
           "zOrder": 72,
           "numberProperties": [
             {
@@ -1761,8 +1754,8 @@
           "name": "Monster",
           "persistentUuid": "b4088871-c253-4bd9-a6fb-4c20a64092f6",
           "width": 0,
-          "x": 3124,
-          "y": 309,
+          "x": 3234,
+          "y": 364,
           "zOrder": 72,
           "numberProperties": [
             {
@@ -1781,8 +1774,8 @@
           "name": "Monster",
           "persistentUuid": "ef721afd-6022-46d2-a2d5-dd26b957bbad",
           "width": 0,
-          "x": 3294,
-          "y": 315,
+          "x": 3404,
+          "y": 370,
           "zOrder": 72,
           "numberProperties": [
             {
@@ -1802,8 +1795,8 @@
           "name": "Fly",
           "persistentUuid": "8699c32c-8df1-46b1-873f-9c0b927aa2a8",
           "width": 0,
-          "x": 3633,
-          "y": 411,
+          "x": 3743,
+          "y": 466,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -1824,8 +1817,8 @@
           "name": "Monster",
           "persistentUuid": "0cd07511-1270-41bb-bc4d-08ec1155f6a2",
           "width": 0,
-          "x": 3450,
-          "y": 312,
+          "x": 3560,
+          "y": 367,
           "zOrder": 72,
           "numberProperties": [
             {
@@ -1858,7 +1851,9 @@
               "useLegacyBottomAndRightAnchors": false
             }
           ],
-          "content": {}
+          "content": {
+            "MaxScore": 950
+          }
         },
         {
           "adaptCollisionMaskAutomatically": false,
@@ -1940,11 +1935,11 @@
               "JumpButton": "A"
             },
             {
-              "acceleration": 1125,
-              "deceleration": 1125,
               "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1125,
+              "deceleration": 1125,
               "canGoDownFromJumpthru": true,
               "gravity": 1000,
               "jumpSpeed": 650,
@@ -5840,6 +5835,7 @@
           "bold": false,
           "italic": true,
           "name": "EndScreenRetryText",
+          "persistentUuid": "ad718fda-b82a-49a0-8848-b2434b9894a7",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -6066,6 +6062,7 @@
         {
           "assetStoreId": "e5919fb86a559b00001678c710efe55f4e9f2e032a9ff9610087370f998d57de",
           "name": "ScreenOrientationChecker",
+          "persistentUuid": "9363e903-ba64-4235-8435-211daa134465",
           "type": "ScreenOrientationChecker::ScreenOrientationChecker",
           "variant": "Black screen orientation checker",
           "variables": [],
@@ -6149,25 +6146,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
-          "name": "NextLevelButton",
-          "persistentUuid": "8ff19c6c-6702-4ae1-b905-2b5418c85788",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "Green Button",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 16,
-            "RightPadding": 16,
-            "PressedLabelOffsetY": 10,
-            "BottomPadding": 32,
-            "TopPadding": 16,
-            "HoveredFadeOutDuration": 0.25,
-            "LabelText": "Next Level"
-          }
         },
         {
           "adaptCollisionMaskAutomatically": false,
@@ -8276,7 +8254,7 @@
           "height": 32,
           "name": "Spikes",
           "persistentUuid": "dba12286-2466-4495-9a18-0d011bfe8e2b",
-          "texture": "assets/Clouds.png2",
+          "texture": "assets\\spikes",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -8375,9 +8353,6 @@
               },
               {
                 "objectName": "JumpButton"
-              },
-              {
-                "objectName": "NextLevelButton"
               },
               {
                 "objectName": "GameOverDialog"
@@ -9592,6 +9567,123 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Detect the player in mortal formal hitting spikes"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Spikes",
+                        "",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "ghost",
+                        "=",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Player::TriggerDeath"
+                      },
+                      "parameters": [
+                        "",
+                        "Player",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::JumpSustainTime"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject",
+                        "=",
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::JumpSpeed"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject",
+                        "=",
+                        "650"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::Gravity"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject",
+                        "=",
+                        "1000"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::MaxFallingSpeed"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject",
+                        "=",
+                        "500",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "ghost",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Statue",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -9655,11 +9747,48 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::IsFalling"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "ghost",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BoundingBoxTop"
+                              },
+                              "parameters": [
+                                "Fly",
+                                "<=",
+                                "Player.BoundingBoxBottom()"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsFalling"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject"
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -10349,10 +10478,10 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                            "value": "GameOverDialog::GameOverDialog::IsNextClicked"
                           },
                           "parameters": [
-                            "NextLevelButton",
+                            "GameOverDialog",
                             ""
                           ]
                         }
@@ -21164,6 +21293,7 @@
               "adaptCollisionMaskAutomatically": true,
               "assetStoreId": "",
               "name": "EndScreenBackground",
+              "persistentUuid": "151c52d4-bf54-4de7-8bdc-4d7c25a5b98b",
               "type": "Sprite",
               "updateIfNotVisible": false,
               "variables": [],
@@ -21234,8 +21364,9 @@
             {
               "assetStoreId": "a48315b9a9c655af87118d7bb8f6be03b4dbb14e066387849b2d2d4c3600573c",
               "name": "RetryButton",
+              "persistentUuid": "e478ad04-843a-492d-81ef-0d8e7c20d346",
               "type": "PanelSpriteButton::PanelSpriteButton",
-              "variant": "Purple Button With Shadow",
+              "variant": "Purple Button With Shadow2",
               "variables": [],
               "effects": [],
               "behaviors": [
@@ -21265,6 +21396,7 @@
               "bold": false,
               "italic": true,
               "name": "EndScreenChallengeText",
+              "persistentUuid": "bd162d0c-d5e4-4ae2-9824-7ac5e0591c2a",
               "smoothed": true,
               "type": "TextObject::Text",
               "underlined": false,
@@ -21287,9 +21419,9 @@
               "textAlignment": "center",
               "characterSize": 40,
               "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
+                "b": 0,
+                "g": 0,
+                "r": 0
               },
               "content": {
                 "bold": false,
@@ -21311,7 +21443,7 @@
                 "verticalTextAlignment": "top",
                 "characterSize": 40,
                 "lineHeight": 0,
-                "color": "255;255;255"
+                "color": "0;0;0"
               }
             },
             {
@@ -21319,6 +21451,7 @@
               "bold": false,
               "italic": false,
               "name": "EndScreenSubHeader",
+              "persistentUuid": "6c562bd1-e8f3-425a-8392-0f56c7dc32ae",
               "smoothed": true,
               "type": "TextObject::Text",
               "underlined": false,
@@ -21341,9 +21474,9 @@
               "textAlignment": "center",
               "characterSize": 40,
               "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
+                "b": 0,
+                "g": 0,
+                "r": 0
               },
               "content": {
                 "bold": false,
@@ -21365,7 +21498,7 @@
                 "verticalTextAlignment": "top",
                 "characterSize": 40,
                 "lineHeight": 0,
-                "color": "255;255;255"
+                "color": "0;0;0"
               }
             },
             {
@@ -21373,6 +21506,7 @@
               "bold": false,
               "italic": false,
               "name": "EndScreenHeader",
+              "persistentUuid": "af542eb2-c7b6-4b45-8528-6193454b6278",
               "smoothed": true,
               "type": "TextObject::Text",
               "underlined": false,
@@ -21395,9 +21529,9 @@
               "textAlignment": "center",
               "characterSize": 60,
               "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
+                "b": 0,
+                "g": 0,
+                "r": 0
               },
               "content": {
                 "bold": false,
@@ -21419,7 +21553,37 @@
                 "verticalTextAlignment": "top",
                 "characterSize": 60,
                 "lineHeight": 0,
-                "color": "255;255;255"
+                "color": "0;0;0"
+              }
+            },
+            {
+              "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
+              "name": "NextLevelButton",
+              "persistentUuid": "e6711671-586d-46df-86c5-f2a2de5233c6",
+              "type": "PanelSpriteButton::PanelSpriteButton",
+              "variant": "Green Button2",
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "bottomEdgeAnchor": 0,
+                  "leftEdgeAnchor": 4,
+                  "name": "Anchor",
+                  "relativeToOriginalWindowSize": true,
+                  "rightEdgeAnchor": 4,
+                  "topEdgeAnchor": 0,
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "useLegacyBottomAndRightAnchors": false
+                }
+              ],
+              "content": {
+                "LeftPadding": 16,
+                "RightPadding": 16,
+                "PressedLabelOffsetY": 10,
+                "BottomPadding": 32,
+                "TopPadding": 16,
+                "HoveredFadeOutDuration": 0.25,
+                "LabelText": "Next Level"
               }
             }
           ],
@@ -21440,6 +21604,9 @@
               },
               {
                 "objectName": "EndScreenBackground"
+              },
+              {
+                "objectName": "NextLevelButton"
               }
             ]
           },
@@ -21529,7 +21696,7 @@
               "name": "RetryButton",
               "persistentUuid": "fac27da1-340f-42db-961a-0e98ea39eae0",
               "width": 0,
-              "x": 384,
+              "x": 239,
               "y": 389,
               "zOrder": 61,
               "numberProperties": [],
@@ -21543,7 +21710,7 @@
               "height": 540,
               "layer": "",
               "name": "EndScreenBackground",
-              "opacity": 128,
+              "opacity": 0,
               "persistentUuid": "34134f25-b199-4d2c-a4ba-111a96ca1d43",
               "width": 960,
               "x": 0,
@@ -21552,6 +21719,31 @@
               "numberProperties": [],
               "stringProperties": [],
               "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 64,
+              "height": 78,
+              "keepRatio": true,
+              "layer": "",
+              "name": "NextLevelButton",
+              "persistentUuid": "296e1cfa-3a2a-47e4-899e-ff791b7b67a8",
+              "width": 208,
+              "x": 533,
+              "y": 384,
+              "zOrder": 62,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": [],
+              "behaviorOverridings": [
+                {
+                  "leftEdgeAnchor": 4,
+                  "name": "Anchor",
+                  "rightEdgeAnchor": 4,
+                  "type": "AnchorBehavior::AnchorBehavior"
+                }
+              ]
             }
           ],
           "editionSettings": {
@@ -21566,7 +21758,7 @@
             "gridColor": 10401023,
             "gridAlpha": 0.8,
             "snap": false,
-            "zoomFactor": 0.7291666666666666,
+            "zoomFactor": 0.8054451666651822,
             "windowMask": false,
             "selectedLayer": "",
             "gameEditorMode": "instances-editor"
@@ -21719,6 +21911,47 @@
                 }
               ],
               "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Condition",
+              "name": "IsNextClicked",
+              "sentence": "Next level button of _PARAM0_ is clicked",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                      },
+                      "parameters": [
+                        "NextLevelButton",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "GameOverDialog::GameOverDialog",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
             }
           ],
           "eventsFunctionsFolderStructure": {
@@ -21729,6 +21962,9 @@
               },
               {
                 "functionName": "IsRetryClicked"
+              },
+              {
+                "functionName": "IsNextClicked"
               }
             ]
           },
@@ -24899,6 +25135,677 @@
             ]
           },
           "variants": [
+            {
+              "areaMaxX": 192,
+              "areaMaxY": 69,
+              "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "name": "Purple Button With Shadow2",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "bold": false,
+                  "italic": false,
+                  "name": "Label",
+                  "persistentUuid": "193d457d-63f1-42f3-9d5b-f2f424a9b600",
+                  "smoothed": true,
+                  "type": "TextObject::Text",
+                  "underlined": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "string": "BUTTON",
+                  "font": "CantoraOne-Regular.ttf",
+                  "textAlignment": "center",
+                  "characterSize": 40,
+                  "color": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "BUTTON",
+                    "font": "CantoraOne-Regular.ttf",
+                    "textAlignment": "center",
+                    "verticalTextAlignment": "center",
+                    "characterSize": 40,
+                    "lineHeight": 0,
+                    "color": "255;255;255"
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 16,
+                  "height": 69,
+                  "leftMargin": 16,
+                  "name": "Idle",
+                  "persistentUuid": "a8861aea-3a9d-4cd2-bae3-d7a1724d37db",
+                  "rightMargin": 16,
+                  "texture": "Purple Button With Shadow_Idle.png",
+                  "tiled": false,
+                  "topMargin": 16,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 192,
+                  "variables": [
+                    {
+                      "folded": true,
+                      "name": "State",
+                      "persistentUuid": "35891f08-98d5-4c5d-9c68-a8d565a205f0",
+                      "type": "string",
+                      "value": "Idle"
+                    }
+                  ],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ButtonFSM",
+                      "type": "PanelSpriteButton::ButtonFSM",
+                      "serializedBehavior": {
+                        "name": "ButtonFSM",
+                        "type": "PanelSpriteButton::ButtonFSM",
+                        "ShouldCheckHovering": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 16,
+                  "height": 69,
+                  "leftMargin": 16,
+                  "name": "Hovered",
+                  "persistentUuid": "8a61f890-73be-4b38-a1fb-50ddd8a70263",
+                  "rightMargin": 16,
+                  "texture": "Purple Button With Shadow_Hovered.png",
+                  "tiled": false,
+                  "topMargin": 16,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 192,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "Tween",
+                      "type": "Tween::TweenBehavior",
+                      "serializedBehavior": {
+                        "name": "Tween",
+                        "type": "Tween::TweenBehavior"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 16,
+                  "height": 69,
+                  "leftMargin": 16,
+                  "name": "Pressed",
+                  "persistentUuid": "a696044c-09d7-4bd5-bdae-bd25eb786167",
+                  "rightMargin": 16,
+                  "texture": "Purple Button With Shadow_Pressed.png",
+                  "tiled": false,
+                  "topMargin": 16,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 192,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "BitmapLabel",
+                  "persistentUuid": "74e775a5-7160-4e21-8e99-0d1a896e775b",
+                  "type": "BitmapText::BitmapTextObject",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "content": {
+                    "text": "Text",
+                    "opacity": 255,
+                    "scale": 1,
+                    "fontSize": 20,
+                    "tint": "255;255;255",
+                    "bitmapFontResourceName": "",
+                    "textureAtlasResourceName": "",
+                    "align": "center",
+                    "verticalTextAlignment": "center"
+                  }
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "Label"
+                  },
+                  {
+                    "objectName": "Idle"
+                  },
+                  {
+                    "objectName": "Hovered"
+                  },
+                  {
+                    "objectName": "Pressed"
+                  },
+                  {
+                    "objectName": "BitmapLabel"
+                  }
+                ]
+              },
+              "objectsGroups": [
+                {
+                  "name": "Background",
+                  "objects": [
+                    {
+                      "name": "Idle"
+                    },
+                    {
+                      "name": "Hovered"
+                    },
+                    {
+                      "name": "Pressed"
+                    }
+                  ]
+                },
+                {
+                  "name": "Labels",
+                  "objects": [
+                    {
+                      "name": "Label"
+                    },
+                    {
+                      "name": "BitmapLabel"
+                    }
+                  ]
+                }
+              ],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "depth": 1,
+                  "height": 64,
+                  "layer": "",
+                  "name": "Idle",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 64,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 60,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Label",
+                  "persistentUuid": "0e01d24f-cdb7-49dc-887c-3aa618d13841",
+                  "width": 188,
+                  "x": 2,
+                  "y": 32,
+                  "zOrder": 2,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ],
+              "editionSettings": {
+                "grid": false,
+                "gridType": "rectangular",
+                "gridWidth": 32,
+                "gridHeight": 32,
+                "gridDepth": 32,
+                "gridOffsetX": 0,
+                "gridOffsetY": 0,
+                "gridOffsetZ": 0,
+                "gridColor": 10401023,
+                "gridAlpha": 0.8,
+                "snap": false,
+                "zoomFactor": 3.6458333333333335,
+                "windowMask": false,
+                "selectedLayer": "",
+                "gameEditorMode": "instances-editor"
+              }
+            },
+            {
+              "areaMaxX": 256,
+              "areaMaxY": 106,
+              "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "name": "Green Button2",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "bold": false,
+                  "italic": false,
+                  "name": "Label",
+                  "persistentUuid": "52b6c4dc-f4a8-4910-9a46-0359bbe91c11",
+                  "smoothed": true,
+                  "type": "TextObject::Text",
+                  "underlined": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "string": "Button",
+                  "font": "",
+                  "textAlignment": "center",
+                  "characterSize": 40,
+                  "color": {
+                    "b": 29,
+                    "g": 99,
+                    "r": 62
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "Button",
+                    "font": "",
+                    "textAlignment": "center",
+                    "verticalTextAlignment": "center",
+                    "characterSize": 40,
+                    "lineHeight": 0,
+                    "color": "62;99;29"
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 32,
+                  "height": 106,
+                  "leftMargin": 16,
+                  "name": "Idle",
+                  "persistentUuid": "74300bb1-b49a-45f0-a865-b239e727339d",
+                  "rightMargin": 16,
+                  "texture": "Green Button_Idle.png",
+                  "tiled": false,
+                  "topMargin": 16,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 256,
+                  "variables": [
+                    {
+                      "folded": true,
+                      "name": "State",
+                      "persistentUuid": "000985d2-c02b-4927-8a3c-780a4353e2a8",
+                      "type": "string",
+                      "value": "Idle"
+                    }
+                  ],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ButtonFSM",
+                      "type": "PanelSpriteButton::ButtonFSM",
+                      "serializedBehavior": {
+                        "name": "ButtonFSM",
+                        "type": "PanelSpriteButton::ButtonFSM",
+                        "ShouldCheckHovering": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 32,
+                  "height": 106,
+                  "leftMargin": 16,
+                  "name": "Hovered",
+                  "persistentUuid": "423de24a-892d-4433-ba7a-948c1e1e86ba",
+                  "rightMargin": 16,
+                  "texture": "Green Button_Hovered.png",
+                  "tiled": false,
+                  "topMargin": 16,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 256,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "Tween",
+                      "type": "Tween::TweenBehavior",
+                      "serializedBehavior": {
+                        "name": "Tween",
+                        "type": "Tween::TweenBehavior"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 16,
+                  "height": 106,
+                  "leftMargin": 16,
+                  "name": "Pressed",
+                  "persistentUuid": "1034576d-5a45-4f26-b711-a223a1df47d1",
+                  "rightMargin": 16,
+                  "texture": "Green Button_Pressed.png",
+                  "tiled": false,
+                  "topMargin": 32,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 256,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "BitmapLabel",
+                  "type": "BitmapText::BitmapTextObject",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ],
+                  "content": {
+                    "text": "Text",
+                    "opacity": 255,
+                    "scale": 1,
+                    "fontSize": 20,
+                    "tint": "255;255;255",
+                    "bitmapFontResourceName": "",
+                    "textureAtlasResourceName": "",
+                    "align": "center",
+                    "verticalTextAlignment": "center"
+                  }
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "Label"
+                  },
+                  {
+                    "objectName": "Idle"
+                  },
+                  {
+                    "objectName": "Hovered"
+                  },
+                  {
+                    "objectName": "Pressed"
+                  },
+                  {
+                    "objectName": "BitmapLabel"
+                  }
+                ]
+              },
+              "objectsGroups": [
+                {
+                  "name": "Background",
+                  "objects": [
+                    {
+                      "name": "Idle"
+                    },
+                    {
+                      "name": "Hovered"
+                    },
+                    {
+                      "name": "Pressed"
+                    }
+                  ]
+                },
+                {
+                  "name": "Labels",
+                  "objects": [
+                    {
+                      "name": "Label"
+                    },
+                    {
+                      "name": "BitmapLabel"
+                    }
+                  ]
+                }
+              ],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "depth": 1,
+                  "height": 64,
+                  "layer": "",
+                  "name": "Idle",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 64,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 80,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Label",
+                  "persistentUuid": "114155f3-90e9-461e-a4cd-6c7b231b4c88",
+                  "width": 240,
+                  "x": 8,
+                  "y": 48,
+                  "zOrder": 2,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ],
+              "editionSettings": {
+                "grid": false,
+                "gridType": "rectangular",
+                "gridWidth": 32,
+                "gridHeight": 32,
+                "gridDepth": 32,
+                "gridOffsetX": 0,
+                "gridOffsetY": 0,
+                "gridOffsetZ": 0,
+                "gridColor": 10401023,
+                "gridAlpha": 0.8,
+                "snap": false,
+                "zoomFactor": 2.734375,
+                "windowMask": false,
+                "selectedLayer": "",
+                "gameEditorMode": "instances-editor"
+              }
+            },
             {
               "areaMaxX": 192,
               "areaMaxY": 69,
