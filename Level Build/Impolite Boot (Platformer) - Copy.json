@@ -9770,23 +9770,42 @@
                             },
                             {
                               "type": {
-                                "value": "BoundingBoxTop"
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
                               },
                               "parameters": [
-                                "Fly",
-                                "<=",
-                                "Player.BoundingBoxBottom()"
+                                "Fly.BoundingBoxTop()+Fly.CenterY()",
+                                "<",
+                                "Player.BoundingBoxBottom()+Player.CenterY()"
                               ]
                             }
                           ]
                         },
                         {
                           "type": {
-                            "value": "PlatformBehavior::IsFalling"
+                            "value": "BuiltinCommonInstructions::And"
                           },
-                          "parameters": [
-                            "Player",
-                            "PlatformerObject"
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsFalling"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "ghost",
+                                "False",
+                                ""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -21566,13 +21585,13 @@
               "effects": [],
               "behaviors": [
                 {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
                   "bottomEdgeAnchor": 0,
                   "leftEdgeAnchor": 4,
-                  "name": "Anchor",
                   "relativeToOriginalWindowSize": true,
                   "rightEdgeAnchor": 4,
                   "topEdgeAnchor": 0,
-                  "type": "AnchorBehavior::AnchorBehavior",
                   "useLegacyBottomAndRightAnchors": false
                 }
               ],
@@ -21738,10 +21757,10 @@
               "initialVariables": [],
               "behaviorOverridings": [
                 {
-                  "leftEdgeAnchor": 4,
                   "name": "Anchor",
-                  "rightEdgeAnchor": 4,
-                  "type": "AnchorBehavior::AnchorBehavior"
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "leftEdgeAnchor": 4,
+                  "rightEdgeAnchor": 4
                 }
               ]
             }
